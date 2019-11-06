@@ -6,3 +6,13 @@
 * link:++https://avinetworks.com/docs/18.2/cloud-vmware/++[VMware Support in Avi Vantage]
 * link:++https://avinetworks.com/docs/18.2/vmware-user-role/++[VMware User Role for Avi Vantage]
 * link:++https://avinetworks.com/docs/18.2/avi-service-engine-group-options/++[Avi Service Engine Group Options]
+
+=== Architecture at Diligent
+
+==== Networks
+
+===== DNS
+
+===== Block of IPs
+
+=== Datacenters deployment
