@@ -1,0 +1,14 @@
+
+=== Virtual Service Scaling
+==== Overview
+This article covers the following virtual service optimization topics:
+
+*** Scaling out a virtual service to an additional Avi Service Engine (SE)
+*** Scaling in a virtual service back to fewer SEs
+*** Migrating a virtual service from one SE to another SE
+*** Avi Vantage supports scaling virtual services, which distributes the virtual service workload across multiple SEs to provide increased capacity on demand, thus extending the throughput capacity of the virtual service and increasing the level of high availability.
+
+*** Scaling out a virtual service distributes that virtual service to an additional SE. By default, Avi Vantage supports a maximum of four SEs per virtual service when native load balancing of SEs is in play.In BGP environments the maximum can be increased to 32.
+*** Scaling in a virtual service reduces the number of SEs over which its load is distributed. A virtual service will always require a minimum of one SE.
+
+link:https://avinetworks.com/docs/18.2/configuration-guide/applications/vs-scaling/[Advanced Options - Full Article]

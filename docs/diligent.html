@@ -715,9 +715,14 @@ pre.pygments.highlight { background-color: rgba(16, 195, 196, 0.05); }
 <li><a href="#owner">2.1. Owner</a></li>
 <li><a href="#confidentiality">2.2. Confidentiality</a></li>
 <li><a href="#contact-information">2.3. Contact Information</a></li>
-<li><a href="#troubleshooting-vmware-avi">2.4. Troubleshooting Vmware / Avi</a>
+<li><a href="#virtual-service-scaling">2.4. Virtual Service Scaling</a>
 <ul class="sectlevel3">
 <li><a href="#overview">2.4.1. Overview</a></li>
+</ul>
+</li>
+<li><a href="#troubleshooting-vmware-avi">2.5. Troubleshooting Vmware / Avi</a>
+<ul class="sectlevel3">
+<li><a href="#overview-2">2.5.1. Overview</a></li>
 </ul>
 </li>
 </ul>
@@ -832,9 +837,43 @@ pre.pygments.highlight { background-color: rgba(16, 195, 196, 0.05); }
 </table>
 </div>
 <div class="sect2">
-<h3 id="troubleshooting-vmware-avi">2.4. Troubleshooting Vmware / Avi</h3>
+<h3 id="virtual-service-scaling">2.4. Virtual Service Scaling</h3>
 <div class="sect3">
 <h4 id="overview">2.4.1. Overview</h4>
+<div class="paragraph">
+<p>This article covers the following virtual service optimization topics:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Scaling out a virtual service to an additional Avi Service Engine (SE)</p>
+</li>
+<li>
+<p>Scaling in a virtual service back to fewer SEs</p>
+</li>
+<li>
+<p>Migrating a virtual service from one SE to another SE</p>
+</li>
+<li>
+<p>Avi Vantage supports scaling virtual services, which distributes the virtual service workload across multiple SEs to provide increased capacity on demand, thus extending the throughput capacity of the virtual service and increasing the level of high availability.</p>
+</li>
+<li>
+<p>Scaling out a virtual service distributes that virtual service to an additional SE. By default, Avi Vantage supports a maximum of four SEs per virtual service when native load balancing of SEs is in play.In BGP environments the maximum can be increased to 32.</p>
+</li>
+<li>
+<p>Scaling in a virtual service reduces the number of SEs over which its load is distributed. A virtual service will always require a minimum of one SE.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><a href="https://avinetworks.com/docs/18.2/configuration-guide/applications/vs-scaling/">Advanced Options - Full Article</a></p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="troubleshooting-vmware-avi">2.5. Troubleshooting Vmware / Avi</h3>
+<div class="sect3">
+<h4 id="overview-2">2.5.1. Overview</h4>
 <div class="paragraph">
 <p>Installation was simple but we had an issue where the SE would not deploy to vSphere.</p>
 </div>
@@ -851,7 +890,7 @@ pre.pygments.highlight { background-color: rgba(16, 195, 196, 0.05); }
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2019-11-08 06:10:46 -0500
+Last updated 2019-11-08 07:35:59 -0500
 </div>
 </div>
 </body>
