@@ -1,0 +1,14 @@
+
+=== Configuration Used
+==== Overview
+Avi Vantage was deployed in Denver, where we enabled SSH. We reserved a block of IPs
+
+** Avi Controller Version: 18.2.6
+
+** Controller IP: 10.74.78.211
+
+** NETWORK: 10.74.78.0/23
+    *** Reserved to Avi: 10.74.78.211 through 10.74.78.222
+
+** Datacenter: Denver
+    *** Deployed on HOST: ???

@@ -1,0 +1,10 @@
+
+=== Cloud Configuration
+==== Overview
+Avi Vantage was deployed in Denver, where we enabled SSH. We reserved a block of IPs
+
+* VMware: Read and Write mode
+* User:  Juan accounts'
+* Created an IPAM with the network 10.74.78.212 through 10.74.78.222
+* NO DHCP on VMware side
+* DHCP for SEs
