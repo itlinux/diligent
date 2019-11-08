@@ -1,4 +1,9 @@
 = Diligent Avi
 
+image::images/avi-vmware.png[Avi - VMware]
+image::images/diligent.png[Diligent]
+
 == Documentation for the Diligent Project
-The info are going to be in the docs folder.
+This repo is using a set of adoc files to compile the html and the pdf in the docs folder. 
+If you have any questions let me know. 
+
