@@ -1,0 +1,6 @@
+
+=== VMware User Role for Avi Vantage  (VMware vCenter 6.5)
+==== Overview
+Avi Vantage deployed in a VMware cloud with write access mode requires certain permissions. This article discusses setting up the required user role and permissions for Avi Vantage vCenter cloud.
+
+link:https://avinetworks.com/docs/18.2/vmware-user-role-6.5/[Vmware User Role - Full Article]
