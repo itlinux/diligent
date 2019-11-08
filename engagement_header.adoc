@@ -1,0 +1,18 @@
+
+=== This is a Draft Document based on the meeting onsite dated Nov 7th, 2019 between VMware - Avi and Diligent
+image::avi-vmware.png[Avi Networks - VMware]
+image::diligent.png[State Street ]
+
+
+== Originator
+{consultant1}
+
+Solutions Architect
+
+{company_name} .Inc
+
+=== Owner
+{company_name} and {customer} – Confidential. Restricted Distribution
+
+=== Confidentiality
+All information supplied to {customer} for the purpose of this project is to be considered {customer} confidential.

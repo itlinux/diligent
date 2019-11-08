@@ -1,0 +1,37 @@
+:data-uri:
+:icons:
+:imagesdir: images
+:numbered:
+:toc2:
+:toclevels: 3
+:numbered:
+:customer: Diligent
+:company:  VMware - Avi
+:project_title:  Diligent
+:consultant1: Remo Mattei
+:consultant2:
+:consultant1_email: rmattei@vmware.com
+:revisionhistory:
+:company_name: VMware
+:navigation:
+:icons: font
+:compat-mode!:
+:experimental:
+:idprefix:
+:idseparator: -
+:front-cover-image: image:avi-vmware.png[width=1050,height=1600]
+:customer-logo: image::diligent.png[Diligent Logo]
+
+= {company} - {project_title}
+
+== Document Information
+This document includes the Overview of what Avi can offer to Diligent Deployment.
+
+** Overview of Avi Vintage deployment in Vmware vSphere
+* link:++https://avinetworks.com/docs/18.2/cloud-vmware/++[VMware Support in Avi Vantage]
+* link:++https://avinetworks.com/docs/18.2/vmware-user-role/++[VMware User Role for Avi Vantage]
+* link:++https://avinetworks.com/docs/18.2/avi-service-engine-group-options/++[Avi Service Engine Group Options]
+
+include::engagement_header.adoc[]
+include::engagement_summary.adoc[]
+include::troubleshooting.adoc[]
