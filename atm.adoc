@@ -1,0 +1,11 @@
+
+=== ATM use at Diligent
+Diligent uses ATM from the F5 as following:
+
+* Gateway
+* Packet validation - inspections
+* Firewall
+
+Avi can act as Gateway, as well as a firewall for specific protocols. We cannot do Packet validation - inspections. 
+
+image::atm.png[]
