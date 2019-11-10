@@ -6,3 +6,5 @@ Installation was simple but we had an issue where the SE would not deploy to vSp
 ===== Requirements
 
 IMPORTANT: vSphere will need to have port 22 open in order for Avi Controller to deploy the  Service Engine (SE)
+
+Deployed an SE in a no access mode to test and see if vSphere needed SSH access.
