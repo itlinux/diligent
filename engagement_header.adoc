@@ -1,7 +1,7 @@
 
 === This is a Draft Document based on the meeting onsite dated Nov 7th, 2019 between VMware - Avi and Diligent
 image::avi-vmware.png[Avi Networks - VMware]
-image::diligent.png[State Street ]
+image::diligent.png[Diligent]
 
 
 == Originator
