@@ -1,6 +1,6 @@
 
 === ATM use at Diligent
-Diligent uses ATM from the F5 as following:
+Diligent uses AFM from the F5 as following:
 
 * Gateway
 * Packet validation - inspections

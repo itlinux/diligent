@@ -34,7 +34,7 @@ This document includes the Overview of what Avi can offer to Diligent Deployment
 
 include::engagement_header.adoc[]
 include::engagement_summary.adoc[]
-include::atm.adoc[]
+include::afm.adoc[]
 include::vmware.adoc[]
 include::datacenter.adoc[]
 include::cloud.adoc[]
